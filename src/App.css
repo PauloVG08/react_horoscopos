@@ -1,0 +1,36 @@
+.calendario {
+    width: 60%; 
+    height: 500px; 
+    background-color: white;
+    border-radius: 20px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-right: 20px;
+}
+
+.horoscopo {
+    width: 40%; 
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.calendario:hover, .horoscopo:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.calendario h2, .horoscopo h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.horoscopo img {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
